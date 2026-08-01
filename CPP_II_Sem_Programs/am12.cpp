@@ -1,0 +1,25 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+  int n,r,t=0;
+  cout<<"enter Any 5 digit no.:";
+  cin>>n;
+  r=n%10;
+  n = n/10;
+  t=t*10 + r;
+  r=n%10;
+  n = n/10;
+  t=t*10 + r;
+  r=n%10;
+  n = n/10;
+  t=t*10 + r;
+  r=n%10;
+  n = n/10;
+  t=t*10 + r;
+  r=n%10;
+  n = n/10;
+  t=t*10 + r;
+  cout<<"\nThe reverse of number is "<<t;
+}
+
