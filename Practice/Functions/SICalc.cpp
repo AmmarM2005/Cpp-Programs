@@ -1,3 +1,4 @@
+//This is a simple C++ Calculator in C++ Programming
 #include <iostream>
 using namespace std;
 float calcSI(float p,float t,float r)
